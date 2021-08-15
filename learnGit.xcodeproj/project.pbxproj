@@ -11,6 +11,7 @@
 		C1203F4126C9C782009E55A2 /* TestVCSwiftUIView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1203F4026C9C782009E55A2 /* TestVCSwiftUIView1.swift */; };
 		C18B56B826C8719B0000CC66 /* TestViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18B56B626C8719B0000CC66 /* TestViewController1.swift */; };
 		C18B56B926C8719B0000CC66 /* TestViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = C18B56B726C8719B0000CC66 /* TestViewController1.xib */; };
+		C19CBA3526C9DEE300846AFC /* TestVCSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19CBA3426C9DEE300846AFC /* TestVCSwiftUIView2.swift */; };
 		C1F6E8A926ABE5A500194CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6E8A826ABE5A500194CEA /* AppDelegate.swift */; };
 		C1F6E8AB26ABE5A500194CEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6E8AA26ABE5A500194CEA /* SceneDelegate.swift */; };
 		C1F6E8AD26ABE5A500194CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6E8AC26ABE5A500194CEA /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 		C1203F4026C9C782009E55A2 /* TestVCSwiftUIView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCSwiftUIView1.swift; sourceTree = "<group>"; };
 		C18B56B626C8719B0000CC66 /* TestViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController1.swift; sourceTree = "<group>"; };
 		C18B56B726C8719B0000CC66 /* TestViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController1.xib; sourceTree = "<group>"; };
+		C19CBA3426C9DEE300846AFC /* TestVCSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCSwiftUIView2.swift; sourceTree = "<group>"; };
 		C1F6E8A526ABE5A500194CEA /* learnGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F6E8A826ABE5A500194CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1F6E8AA26ABE5A500194CEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				C1203F4026C9C782009E55A2 /* TestVCSwiftUIView1.swift */,
+				C19CBA3426C9DEE300846AFC /* TestVCSwiftUIView2.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				C1203F3A26C9B5CD009E55A2 /* BaseAnimation.swift in Sources */,
 				C1F6E8A926ABE5A500194CEA /* AppDelegate.swift in Sources */,
 				C1F6E8AB26ABE5A500194CEA /* SceneDelegate.swift in Sources */,
+				C19CBA3526C9DEE300846AFC /* TestVCSwiftUIView2.swift in Sources */,
 				C1F6E8B326ABE5A500194CEA /* learnGit.xcdatamodeld in Sources */,
 				C18B56B826C8719B0000CC66 /* TestViewController1.swift in Sources */,
 				C1203F4126C9C782009E55A2 /* TestVCSwiftUIView1.swift in Sources */,
