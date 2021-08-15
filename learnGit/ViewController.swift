@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ViewController: UIViewController {
     
@@ -26,7 +27,13 @@ class ViewController: UIViewController {
 //            writeView.view.backgroundColor = .red
 //            self.navigationController?.pushViewController(writeView, animated: false)
             
-            self.customPush(toVC: TestViewController1(), type: .fromTop)
+            //self.customPush(toVC: TestViewController1(), type: .fromTop)
+            
+            let swiftUIView = ContentView() // swiftUIView is View
+            let viewCtrl = UIHostingController(rootView: swiftUIView)
+            
+            //let vc = UIHostingController(rootView: ContentView)
+            self.navigationController?.pushViewController(viewCtrl, animated: true)
         }
     }
 

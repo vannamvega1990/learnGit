@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         //let vc = slideMenuViewController1()
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0) {
             let vc = ViewController()
             
             let nav = UINavigationController(rootViewController: vc)
