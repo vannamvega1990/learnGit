@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1203F3A26C9B5CD009E55A2 /* BaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1203F3926C9B5CD009E55A2 /* BaseAnimation.swift */; };
+		C18B56B826C8719B0000CC66 /* TestViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18B56B626C8719B0000CC66 /* TestViewController1.swift */; };
+		C18B56B926C8719B0000CC66 /* TestViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = C18B56B726C8719B0000CC66 /* TestViewController1.xib */; };
 		C1F6E8A926ABE5A500194CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6E8A826ABE5A500194CEA /* AppDelegate.swift */; };
 		C1F6E8AB26ABE5A500194CEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6E8AA26ABE5A500194CEA /* SceneDelegate.swift */; };
 		C1F6E8AD26ABE5A500194CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6E8AC26ABE5A500194CEA /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1203F3926C9B5CD009E55A2 /* BaseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAnimation.swift; sourceTree = "<group>"; };
+		C18B56B626C8719B0000CC66 /* TestViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController1.swift; sourceTree = "<group>"; };
+		C18B56B726C8719B0000CC66 /* TestViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController1.xib; sourceTree = "<group>"; };
 		C1F6E8A526ABE5A500194CEA /* learnGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F6E8A826ABE5A500194CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1F6E8AA26ABE5A500194CEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1203F3726C9B5A1009E55A2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C1203F3826C9B5AB009E55A2 /* Animation */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C1203F3826C9B5AB009E55A2 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C1203F3926C9B5CD009E55A2 /* BaseAnimation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		C1F6E89C26ABE5A500194CEA = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +80,12 @@
 		C1F6E8A726ABE5A500194CEA /* learnGit */ = {
 			isa = PBXGroup;
 			children = (
+				C1203F3726C9B5A1009E55A2 /* Base */,
 				C1F6E8A826ABE5A500194CEA /* AppDelegate.swift */,
 				C1F6E8AA26ABE5A500194CEA /* SceneDelegate.swift */,
 				C1F6E8AC26ABE5A500194CEA /* ViewController.swift */,
+				C18B56B626C8719B0000CC66 /* TestViewController1.swift */,
+				C18B56B726C8719B0000CC66 /* TestViewController1.xib */,
 				C1F6E8AE26ABE5A500194CEA /* Main.storyboard */,
 				C1F6E8B426ABE5A600194CEA /* Assets.xcassets */,
 				C1F6E8B626ABE5A600194CEA /* LaunchScreen.storyboard */,
@@ -127,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C18B56B926C8719B0000CC66 /* TestViewController1.xib in Resources */,
 				C1F6E8B826ABE5A600194CEA /* LaunchScreen.storyboard in Resources */,
 				C1F6E8B526ABE5A600194CEA /* Assets.xcassets in Resources */,
 				C1F6E8B026ABE5A500194CEA /* Main.storyboard in Resources */,
@@ -141,9 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1F6E8AD26ABE5A500194CEA /* ViewController.swift in Sources */,
+				C1203F3A26C9B5CD009E55A2 /* BaseAnimation.swift in Sources */,
 				C1F6E8A926ABE5A500194CEA /* AppDelegate.swift in Sources */,
 				C1F6E8AB26ABE5A500194CEA /* SceneDelegate.swift in Sources */,
 				C1F6E8B326ABE5A500194CEA /* learnGit.xcdatamodeld in Sources */,
+				C18B56B826C8719B0000CC66 /* TestViewController1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

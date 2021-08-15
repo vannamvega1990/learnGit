@@ -17,6 +17,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window?.windowScene = windowScene
+        
+        //let vc = slideMenuViewController1()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            let vc = ViewController()
+            
+            let nav = UINavigationController(rootViewController: vc)
+            nav.setNavigationBarHidden(true, animated: true)
+            
+            
+            
+            self.window?.rootViewController = nav //timeLine //navigation
+            self.window?.makeKeyAndVisible()
+        }
+        
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

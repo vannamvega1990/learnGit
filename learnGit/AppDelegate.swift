@@ -8,13 +8,32 @@
 import UIKit
 import CoreData
 
+
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        //let vc = slideMenuViewController1()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            let vc = ViewController()
+            
+            let nav = UINavigationController(rootViewController: vc)
+            nav.setNavigationBarHidden(true, animated: true)
+            
+            
+            
+            self.window?.rootViewController = nav //timeLine //navigation
+            self.window?.makeKeyAndVisible()
+        }
+        
         return true
     }
 

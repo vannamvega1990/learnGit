@@ -8,12 +8,35 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+//            let transition = CATransition()
+//            transition.duration = 0.5
+//            transition.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
+//            transition.type = CATransitionType.push
+//            //transition.subtype = CATransitionSubtype.fromTop
+//            //transition.subtype = CATransitionSubtype.fromBottom
+//            //transition.subtype = CATransitionSubtype.fromLeft
+//            transition.subtype = CATransitionSubtype.fromRight
+//            self.navigationController!.view.layer.add(transition, forKey: nil)
+//            let writeView = UIViewController()
+//            writeView.view.backgroundColor = .red
+//            self.navigationController?.pushViewController(writeView, animated: false)
+            
+            self.customPush(toVC: TestViewController1(), type: .fromTop)
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         print("123---")
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .red
     }
+    
+    
 
 
 }
