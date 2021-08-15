@@ -10,6 +10,25 @@ import SwiftUI
 //let swiftUIView = ContentView() // swiftUIView is View
 //let viewCtrl = UIHostingController(rootView: swiftUIView)
 
+extension Button {
+    var testVar:String {
+        get{
+            return "123"
+        }
+    }
+    func testFunction(){
+        background(Color.black)
+        print("---------")
+    }
+}
+
+struct SubView: View {
+    var body: some View {
+        Text("Hello, world!")
+            .padding()
+    }
+}
+
 struct Data: Identifiable {
     var id = UUID()
     let title: String
@@ -21,6 +40,8 @@ struct Data: Identifiable {
 struct ContentView: View {
     
     @State private var showDetails = false
+    @State private var didTap:Bool = false
+    
     
     var items:[Data] = [Data(id: .init(), title: "123test", imageName: "pic1", imageDes: "day la pic 1", imageTokenDate: "123")]
     
@@ -40,13 +61,28 @@ struct ContentView: View {
                 List(items){data in
                     Image(data.imageName).resizable().frame(width: 98, height: 98, alignment: .center)
                     Text(data.imageDes).foregroundColor(.green).fontWeight(.bold)
+                    SubView()
                 }.navigationBarTitle("123")
             }
+            
+            //  change color button ---------------------------
+            Button(action: {
+                //self.didTap = true
+                self.didTap.toggle()
+            }) {
+                Text("My custom button").font(.system(size: 24))
+            }
+            .frame(width: 300, height: 75, alignment: .center)
+            .padding(.all, 20)
+            .background(didTap ? Color.red : Color.yellow)
+            //  ---------------------------
             Button("btn") {
                 showDetails.toggle()
             }
+            //  ---------------------------
             Button("tap") {
                 actionOfButton()
+                
             }.foregroundColor(.red)
         }
         
