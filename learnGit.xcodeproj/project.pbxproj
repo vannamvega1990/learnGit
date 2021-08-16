@@ -81,11 +81,7 @@
 		C1203F3F26C9C761009E55A2 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				C139A6AD26C9F7EB0005E74A /* TextField */,
-				C139A6A826C9F7BC0005E74A /* PopToViewController */,
-				C139A6A426C9F7850005E74A /* PushToViewController */,
-				C1203F4026C9C782009E55A2 /* TestVCSwiftUIView1.swift */,
-				C19CBA3426C9DEE300846AFC /* TestVCSwiftUIView2.swift */,
+				C139A6AF26C9FF220005E74A /* BaseLearn */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -119,6 +115,18 @@
 				C16E072126C9EBEA00CB4FAD /* TestVCSwiftUIView3.swift */,
 			);
 			path = TextField;
+			sourceTree = "<group>";
+		};
+		C139A6AF26C9FF220005E74A /* BaseLearn */ = {
+			isa = PBXGroup;
+			children = (
+				C139A6AD26C9F7EB0005E74A /* TextField */,
+				C139A6A826C9F7BC0005E74A /* PopToViewController */,
+				C139A6A426C9F7850005E74A /* PushToViewController */,
+				C1203F4026C9C782009E55A2 /* TestVCSwiftUIView1.swift */,
+				C19CBA3426C9DEE300846AFC /* TestVCSwiftUIView2.swift */,
+			);
+			path = BaseLearn;
 			sourceTree = "<group>";
 		};
 		C1F6E89C26ABE5A500194CEA = {
