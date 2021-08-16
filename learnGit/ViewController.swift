@@ -29,8 +29,10 @@ class ViewController: UIViewController {
             
             //self.customPush(toVC: TestViewController1(), type: .fromTop)
             
-            let swiftUIView = ContentView() // swiftUIView is View
-            let viewCtrl = UIHostingController(rootView: swiftUIView)
+            //var swiftUIView = ContentView() // swiftUIView is View
+            //let swiftUIView = ContentView1()
+            //let viewCtrl = UIHostingController(rootView: swiftUIView)
+            let viewCtrl = UIHostingController(rootView: PushToViewController().environmentObject(Model()))
             
             //let vc = UIHostingController(rootView: ContentView)
             self.navigationController?.pushViewController(viewCtrl, animated: true)
@@ -47,4 +49,5 @@ class ViewController: UIViewController {
 
 
 }
+
 

@@ -12,6 +12,7 @@ struct TestVCSwiftUIView2: View {
 
     var body: some View {
         VStack {
+            
         Text("Primary")
             .style(kind)
             Button(action: {
@@ -33,7 +34,22 @@ extension View {
    
     func Handle() -> some View{
         print("-----------")
+        let v = SubView().frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         return self.background(Color.red)
+    }
+}
+
+extension UIImage {
+    func Handle() -> some UIImage{
+        print("-----------")
+        return self.withTintColor(UIColor.red)
+    }
+}
+
+extension UIImageView {
+    func Handle1(){
+        print("-----------")
+        self.image = UIImage()
     }
 }
 

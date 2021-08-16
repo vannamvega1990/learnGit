@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		C1203F3A26C9B5CD009E55A2 /* BaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1203F3926C9B5CD009E55A2 /* BaseAnimation.swift */; };
 		C1203F4126C9C782009E55A2 /* TestVCSwiftUIView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1203F4026C9C782009E55A2 /* TestVCSwiftUIView1.swift */; };
+		C139A6A626C9F7B20005E74A /* PushToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C139A6A526C9F7B20005E74A /* PushToViewController.swift */; };
+		C139A6AA26C9F7D00005E74A /* PopToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C139A6A926C9F7D00005E74A /* PopToViewController.swift */; };
+		C16E072226C9EBEA00CB4FAD /* TestVCSwiftUIView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16E072126C9EBEA00CB4FAD /* TestVCSwiftUIView3.swift */; };
 		C18B56B826C8719B0000CC66 /* TestViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18B56B626C8719B0000CC66 /* TestViewController1.swift */; };
 		C18B56B926C8719B0000CC66 /* TestViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = C18B56B726C8719B0000CC66 /* TestViewController1.xib */; };
 		C19CBA3526C9DEE300846AFC /* TestVCSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19CBA3426C9DEE300846AFC /* TestVCSwiftUIView2.swift */; };
@@ -24,6 +27,9 @@
 /* Begin PBXFileReference section */
 		C1203F3926C9B5CD009E55A2 /* BaseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAnimation.swift; sourceTree = "<group>"; };
 		C1203F4026C9C782009E55A2 /* TestVCSwiftUIView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCSwiftUIView1.swift; sourceTree = "<group>"; };
+		C139A6A526C9F7B20005E74A /* PushToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushToViewController.swift; sourceTree = "<group>"; };
+		C139A6A926C9F7D00005E74A /* PopToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopToViewController.swift; sourceTree = "<group>"; };
+		C16E072126C9EBEA00CB4FAD /* TestVCSwiftUIView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCSwiftUIView3.swift; sourceTree = "<group>"; };
 		C18B56B626C8719B0000CC66 /* TestViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController1.swift; sourceTree = "<group>"; };
 		C18B56B726C8719B0000CC66 /* TestViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController1.xib; sourceTree = "<group>"; };
 		C19CBA3426C9DEE300846AFC /* TestVCSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVCSwiftUIView2.swift; sourceTree = "<group>"; };
@@ -75,6 +81,9 @@
 		C1203F3F26C9C761009E55A2 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C139A6AD26C9F7EB0005E74A /* TextField */,
+				C139A6A826C9F7BC0005E74A /* PopToViewController */,
+				C139A6A426C9F7850005E74A /* PushToViewController */,
 				C1203F4026C9C782009E55A2 /* TestVCSwiftUIView1.swift */,
 				C19CBA3426C9DEE300846AFC /* TestVCSwiftUIView2.swift */,
 			);
@@ -86,6 +95,30 @@
 			children = (
 			);
 			path = ExampleViewControllers;
+			sourceTree = "<group>";
+		};
+		C139A6A426C9F7850005E74A /* PushToViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C139A6A526C9F7B20005E74A /* PushToViewController.swift */,
+			);
+			path = PushToViewController;
+			sourceTree = "<group>";
+		};
+		C139A6A826C9F7BC0005E74A /* PopToViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C139A6A926C9F7D00005E74A /* PopToViewController.swift */,
+			);
+			path = PopToViewController;
+			sourceTree = "<group>";
+		};
+		C139A6AD26C9F7EB0005E74A /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				C16E072126C9EBEA00CB4FAD /* TestVCSwiftUIView3.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 		C1F6E89C26ABE5A500194CEA = {
@@ -196,12 +229,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16E072226C9EBEA00CB4FAD /* TestVCSwiftUIView3.swift in Sources */,
 				C1F6E8AD26ABE5A500194CEA /* ViewController.swift in Sources */,
 				C1203F3A26C9B5CD009E55A2 /* BaseAnimation.swift in Sources */,
 				C1F6E8A926ABE5A500194CEA /* AppDelegate.swift in Sources */,
 				C1F6E8AB26ABE5A500194CEA /* SceneDelegate.swift in Sources */,
 				C19CBA3526C9DEE300846AFC /* TestVCSwiftUIView2.swift in Sources */,
 				C1F6E8B326ABE5A500194CEA /* learnGit.xcdatamodeld in Sources */,
+				C139A6A626C9F7B20005E74A /* PushToViewController.swift in Sources */,
+				C139A6AA26C9F7D00005E74A /* PopToViewController.swift in Sources */,
 				C18B56B826C8719B0000CC66 /* TestViewController1.swift in Sources */,
 				C1203F4126C9C782009E55A2 /* TestVCSwiftUIView1.swift in Sources */,
 			);
