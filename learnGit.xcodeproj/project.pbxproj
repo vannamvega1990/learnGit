@@ -18,6 +18,7 @@
 		C1C3755026D2390E009C1BCA /* ExTableView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3754F26D2390E009C1BCA /* ExTableView1.swift */; };
 		C1C3755326D23B20009C1BCA /* ExTableView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3755226D23B20009C1BCA /* ExTableView2.swift */; };
 		C1C3755726D23F70009C1BCA /* ExNavigationBar1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3755626D23F70009C1BCA /* ExNavigationBar1.swift */; };
+		C1C3755C26D240A0009C1BCA /* ExNavigationController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3755B26D240A0009C1BCA /* ExNavigationController1.swift */; };
 		C1F6E8A926ABE5A500194CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6E8A826ABE5A500194CEA /* AppDelegate.swift */; };
 		C1F6E8AB26ABE5A500194CEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6E8AA26ABE5A500194CEA /* SceneDelegate.swift */; };
 		C1F6E8AD26ABE5A500194CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6E8AC26ABE5A500194CEA /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 		C1C3754F26D2390E009C1BCA /* ExTableView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExTableView1.swift; sourceTree = "<group>"; };
 		C1C3755226D23B20009C1BCA /* ExTableView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExTableView2.swift; sourceTree = "<group>"; };
 		C1C3755626D23F70009C1BCA /* ExNavigationBar1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExNavigationBar1.swift; sourceTree = "<group>"; };
+		C1C3755B26D240A0009C1BCA /* ExNavigationController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExNavigationController1.swift; sourceTree = "<group>"; };
 		C1F6E8A526ABE5A500194CEA /* learnGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F6E8A826ABE5A500194CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1F6E8AA26ABE5A500194CEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				C1F6E8AC26ABE5A500194CEA /* ViewController.swift */,
-				C1C3755526D23F51009C1BCA /* NavigationBar */,
+				C1C3755526D23F51009C1BCA /* Navigation */,
 				C1C3754E26D238E9009C1BCA /* TableView */,
 				C139A6AD26C9F7EB0005E74A /* TextField */,
 				C139A6A826C9F7BC0005E74A /* PopToViewController */,
@@ -157,12 +159,13 @@
 			path = TableView;
 			sourceTree = "<group>";
 		};
-		C1C3755526D23F51009C1BCA /* NavigationBar */ = {
+		C1C3755526D23F51009C1BCA /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
 				C1C3755626D23F70009C1BCA /* ExNavigationBar1.swift */,
+				C1C3755B26D240A0009C1BCA /* ExNavigationController1.swift */,
 			);
-			path = NavigationBar;
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		C1F6E89C26ABE5A500194CEA = {
@@ -277,6 +280,7 @@
 				C1F6E8A926ABE5A500194CEA /* AppDelegate.swift in Sources */,
 				C1F6E8AB26ABE5A500194CEA /* SceneDelegate.swift in Sources */,
 				C1C3755726D23F70009C1BCA /* ExNavigationBar1.swift in Sources */,
+				C1C3755C26D240A0009C1BCA /* ExNavigationController1.swift in Sources */,
 				C19CBA3526C9DEE300846AFC /* TestVCSwiftUIView2.swift in Sources */,
 				C1C3755026D2390E009C1BCA /* ExTableView1.swift in Sources */,
 				C1F6E8B326ABE5A500194CEA /* learnGit.xcdatamodeld in Sources */,
