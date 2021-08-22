@@ -19,6 +19,15 @@
 		C1C3755326D23B20009C1BCA /* ExTableView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3755226D23B20009C1BCA /* ExTableView2.swift */; };
 		C1C3755726D23F70009C1BCA /* ExNavigationBar1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3755626D23F70009C1BCA /* ExNavigationBar1.swift */; };
 		C1C3755C26D240A0009C1BCA /* ExNavigationController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3755B26D240A0009C1BCA /* ExNavigationController1.swift */; };
+		C1C3756026D24B3A009C1BCA /* BaseGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3755F26D24B3A009C1BCA /* BaseGame.swift */; };
+		C1C3756426D24B55009C1BCA /* ExGameViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3756326D24B55009C1BCA /* ExGameViewController1.swift */; };
+		C1C3756726D24B9B009C1BCA /* Snipet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3756626D24B9B009C1BCA /* Snipet.swift */; };
+		C1C3758D26D24E6F009C1BCA /* ExGameViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3758C26D24E6F009C1BCA /* ExGameViewController2.swift */; };
+		C1C3759326D250FD009C1BCA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C3759226D250FD009C1BCA /* GameScene.swift */; };
+		C1C3759A26D2517F009C1BCA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C1C3759926D2517F009C1BCA /* GameScene.sks */; };
+		C1C3759D26D25252009C1BCA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C1C3759C26D25252009C1BCA /* Actions.sks */; };
+		C1C375A226D252D9009C1BCA /* GameScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C375A126D252D9009C1BCA /* GameScene2.swift */; };
+		C1C375A626D25694009C1BCA /* GameScene2.sks in Resources */ = {isa = PBXBuildFile; fileRef = C1C375A526D25694009C1BCA /* GameScene2.sks */; };
 		C1F6E8A926ABE5A500194CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6E8A826ABE5A500194CEA /* AppDelegate.swift */; };
 		C1F6E8AB26ABE5A500194CEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6E8AA26ABE5A500194CEA /* SceneDelegate.swift */; };
 		C1F6E8AD26ABE5A500194CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6E8AC26ABE5A500194CEA /* ViewController.swift */; };
@@ -41,6 +50,15 @@
 		C1C3755226D23B20009C1BCA /* ExTableView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExTableView2.swift; sourceTree = "<group>"; };
 		C1C3755626D23F70009C1BCA /* ExNavigationBar1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExNavigationBar1.swift; sourceTree = "<group>"; };
 		C1C3755B26D240A0009C1BCA /* ExNavigationController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExNavigationController1.swift; sourceTree = "<group>"; };
+		C1C3755F26D24B3A009C1BCA /* BaseGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseGame.swift; sourceTree = "<group>"; };
+		C1C3756326D24B55009C1BCA /* ExGameViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExGameViewController1.swift; sourceTree = "<group>"; };
+		C1C3756626D24B9B009C1BCA /* Snipet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snipet.swift; sourceTree = "<group>"; };
+		C1C3758C26D24E6F009C1BCA /* ExGameViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExGameViewController2.swift; sourceTree = "<group>"; };
+		C1C3759226D250FD009C1BCA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C1C3759926D2517F009C1BCA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C1C3759C26D25252009C1BCA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C1C375A126D252D9009C1BCA /* GameScene2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene2.swift; sourceTree = "<group>"; };
+		C1C375A526D25694009C1BCA /* GameScene2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene2.sks; sourceTree = "<group>"; };
 		C1F6E8A526ABE5A500194CEA /* learnGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F6E8A826ABE5A500194CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1F6E8AA26ABE5A500194CEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -168,6 +186,45 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		C1C3755E26D24B0F009C1BCA /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				C1C3756226D24B3D009C1BCA /* Example */,
+				C1C3755F26D24B3A009C1BCA /* BaseGame.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		C1C3756226D24B3D009C1BCA /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				C1C375A026D252C5009C1BCA /* Example1 */,
+				C1C3759F26D252AB009C1BCA /* Example2 */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		C1C3759F26D252AB009C1BCA /* Example2 */ = {
+			isa = PBXGroup;
+			children = (
+				C1C3758C26D24E6F009C1BCA /* ExGameViewController2.swift */,
+				C1C3759226D250FD009C1BCA /* GameScene.swift */,
+				C1C375A126D252D9009C1BCA /* GameScene2.swift */,
+				C1C3759926D2517F009C1BCA /* GameScene.sks */,
+				C1C375A526D25694009C1BCA /* GameScene2.sks */,
+				C1C3759C26D25252009C1BCA /* Actions.sks */,
+			);
+			path = Example2;
+			sourceTree = "<group>";
+		};
+		C1C375A026D252C5009C1BCA /* Example1 */ = {
+			isa = PBXGroup;
+			children = (
+				C1C3756326D24B55009C1BCA /* ExGameViewController1.swift */,
+			);
+			path = Example1;
+			sourceTree = "<group>";
+		};
 		C1F6E89C26ABE5A500194CEA = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +244,8 @@
 		C1F6E8A726ABE5A500194CEA /* learnGit */ = {
 			isa = PBXGroup;
 			children = (
+				C1C3756626D24B9B009C1BCA /* Snipet.swift */,
+				C1C3755E26D24B0F009C1BCA /* Game */,
 				C1203F8626C9CBD9009E55A2 /* ExampleViewControllers */,
 				C1203F3F26C9C761009E55A2 /* SwiftUI */,
 				C1203F3726C9B5A1009E55A2 /* Base */,
@@ -260,6 +319,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C18B56B926C8719B0000CC66 /* TestViewController1.xib in Resources */,
+				C1C375A626D25694009C1BCA /* GameScene2.sks in Resources */,
+				C1C3759D26D25252009C1BCA /* Actions.sks in Resources */,
+				C1C3759A26D2517F009C1BCA /* GameScene.sks in Resources */,
 				C1F6E8B826ABE5A600194CEA /* LaunchScreen.storyboard in Resources */,
 				C1F6E8B526ABE5A600194CEA /* Assets.xcassets in Resources */,
 				C1F6E8B026ABE5A500194CEA /* Main.storyboard in Resources */,
@@ -276,17 +338,23 @@
 				C1C3755326D23B20009C1BCA /* ExTableView2.swift in Sources */,
 				C16E072226C9EBEA00CB4FAD /* TestVCSwiftUIView3.swift in Sources */,
 				C1F6E8AD26ABE5A500194CEA /* ViewController.swift in Sources */,
+				C1C375A226D252D9009C1BCA /* GameScene2.swift in Sources */,
 				C1203F3A26C9B5CD009E55A2 /* BaseAnimation.swift in Sources */,
 				C1F6E8A926ABE5A500194CEA /* AppDelegate.swift in Sources */,
+				C1C3758D26D24E6F009C1BCA /* ExGameViewController2.swift in Sources */,
 				C1F6E8AB26ABE5A500194CEA /* SceneDelegate.swift in Sources */,
 				C1C3755726D23F70009C1BCA /* ExNavigationBar1.swift in Sources */,
 				C1C3755C26D240A0009C1BCA /* ExNavigationController1.swift in Sources */,
 				C19CBA3526C9DEE300846AFC /* TestVCSwiftUIView2.swift in Sources */,
+				C1C3759326D250FD009C1BCA /* GameScene.swift in Sources */,
 				C1C3755026D2390E009C1BCA /* ExTableView1.swift in Sources */,
 				C1F6E8B326ABE5A500194CEA /* learnGit.xcdatamodeld in Sources */,
 				C139A6A626C9F7B20005E74A /* PushToViewController.swift in Sources */,
+				C1C3756726D24B9B009C1BCA /* Snipet.swift in Sources */,
+				C1C3756426D24B55009C1BCA /* ExGameViewController1.swift in Sources */,
 				C139A6AA26C9F7D00005E74A /* PopToViewController.swift in Sources */,
 				C18B56B826C8719B0000CC66 /* TestViewController1.swift in Sources */,
+				C1C3756026D24B3A009C1BCA /* BaseGame.swift in Sources */,
 				C1203F4126C9C782009E55A2 /* TestVCSwiftUIView1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

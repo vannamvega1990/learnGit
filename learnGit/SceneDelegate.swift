@@ -24,7 +24,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         //let vc = slideMenuViewController1()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0) {
-            let vc = ViewController()
+            //let vc = ViewController()
+            //let vc = ExGameViewController1()
+            let vc = ExGameViewController2()
             
             let nav = UINavigationController(rootViewController: vc)
             nav.setNavigationBarHidden(true, animated: true)
